@@ -54,37 +54,24 @@ This project is a complete network design and simulation for **University**, whi
 
 ## Network Topology
 
-![Network Diagram](network_diagram.png)
+![Network Diagram](network_topology.png)
 
 _Visual representation of the entire network: Main and Small campuses, building-wise setup, VLANs, routers, and external server._
 
 ---
 
-## 🧪 How to Test / Run
+## How to Test / Run
 
-1. Open the `AlbionUniversity_Network.pkt` file using Cisco Packet Tracer.
+1. Open the `University_Network.pkt` file using Cisco Packet Tracer.
 2. Verify:
-   - DHCP IP assignment in Building A
+   - DHCP IP assignment in Buildings
    - Server access from different VLANs
    - Inter-building and inter-campus connectivity via RIPv2
    - External email server access through static route
 3. Use ping and web requests to test server reachability and VLAN isolation.
-
 ---
 
-## 📁 Repository Contents
-
-| File                         | Description                                |
-|------------------------------|--------------------------------------------|
-| `AlbionUniversity_Network.pkt` | Main Cisco Packet Tracer file              |
-| `README.md`                  | Project documentation (this file)          |
-| `configurations.txt`         | CLI commands used on routers and switches  |
-| `network_diagram.png`        | Visual network diagram                     |
-| `report.pdf` _(optional)_    | Critical evaluation of design choices      |
-
----
-
-## 🧠 Key Learnings
+## Key Learnings
 
 - How to design and implement VLAN-based segmentation for departments.
 - How to configure inter-VLAN routing and RIPv2 for real-world networks.
@@ -93,7 +80,7 @@ _Visual representation of the entire network: Main and Small campuses, building-
 
 ---
 
-## 🔐 Performance & Security Highlights
+## Performance & Security Highlights
 
 - **Performance**: Subnetting and VLANs reduce broadcast domain size.
 - **Scalability**: Easy to add more faculties or buildings using RIPv2 and VLANs.
